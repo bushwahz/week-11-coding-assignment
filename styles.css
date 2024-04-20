@@ -1,0 +1,23 @@
+
+#gameboard {
+  width: 375px;
+  height: 375px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.square {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #2041ff;
+  background-color: #F5F5F5;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square:hover {
+  background-color: #FFFFE0;
+}
